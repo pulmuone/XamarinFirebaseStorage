@@ -59,5 +59,15 @@ namespace XamarinFirebaseStorage
             string imgurl = stroageImage;
             return imgurl;
         }
+
+        private async void Download_Clicked(object sender, EventArgs e)
+        {
+            var storage = await new FirebaseStorage("xamarinfirebase-e44c0.appspot.com")
+                .Child("XamarinMonkeys")
+                .Child("image.jpg")
+                .GetDownloadUrlAsync();
+
+            imgChoosed.Source = storage;
+        }
     }
 }

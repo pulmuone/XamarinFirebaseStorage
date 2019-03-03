@@ -8,6 +8,7 @@
         <Image x:Name="imgChoosed"/>
         <Button Text="PICK" x:Name="pick" Clicked="Pick_Clicked"/>
         <Button Text="STORE" x:Name="store" Clicked="Store_Clicked" />
+        <Button Text="Download" x:Name="download" Clicked="Download_Clicked" />
         
     </StackLayout>
 
