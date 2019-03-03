@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinFirebaseStorage"
+             x:Class="XamarinFirebaseStorage.MainPage">
+
+    <StackLayout>
+        <Image x:Name="imgChoosed"/>
+        <Button Text="PICK" x:Name="pick" Clicked="Pick_Clicked"/>
+        <Button Text="STORE" x:Name="store" Clicked="Store_Clicked" />
+        
+    </StackLayout>
+
+</ContentPage>
